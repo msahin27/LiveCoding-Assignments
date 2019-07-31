@@ -1,0 +1,41 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+.container-fluid {
+  background-color: rgb(159, 211, 231);
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.about-me {
+  background-color: rgb(184, 236, 219);
+  padding: 3% 5%;
+  
+}
+.exper {
+  background-color: #e8e8e8;
+  padding: 3% 5%;
+}
+.card {
+  background-color: #ffa;
+}
+.edu {
+  
+  padding: 3% 5%;
+}
+
+.skill {
+  background-color: #ccc1ff;
+  padding: 3% 5%;
+}
+.social-icon{
+    margin: 20px 10px;
+}

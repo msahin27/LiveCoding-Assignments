@@ -1,0 +1,98 @@
+--1--
+TOSHIBA@SE7EN MINGW64 ~
+$ cd desktop
+
+TOSHIBA@SE7EN MINGW64 ~/desktop
+$ cd mehmet
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ touch pets.txt
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ echo "cat" > pets.txt
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ echo dog >> pets.txt
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ echo hamster  >> pets.txt
+
+--2--
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ echo cat > commands.txt
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ echo ls >> commands.txt
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ echo pwd  >> commands.txt
+
+--3--
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ sort pets.txt | uniq > file1.sorted
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ sort pets.txt commands.txt | uniq > file1.sorted
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ grep  pets.txt commands.txt | uniq > file1.sorted
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ grep pets.txt commands.txt | uniq > file1.sorted
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ sort pets.txt commands.txt | uniq > file1.txt
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ mv file1.txt lovelycommands.txt
+
+--4--
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ mkdir sahin
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet
+$ cd sahin
+
+
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5}; do echo hello ; done
+hello
+hello
+hello
+hello
+hello
+
+--5--
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5}; do echo hello >> greetings.txt; done
+
+--6--
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5};
+> do touch $i.txt;
+> done
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5}; do echo hello > $i.txt; done
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5}; do echo $hello > $i.txt; done
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5}; do echo $ hello > $i.txt; done
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5}; do echo $i hello > $i.txt; done
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5}; do echo hello >> $i.txt; done
+
+TOSHIBA@SE7EN MINGW64 ~/desktop/mehmet/sahin
+$ for i in {1..5}; do echo $i hello >> $i.txt; done
+

@@ -1,0 +1,12 @@
+.button {
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px 8px;
+}
+h2 {
+    font-family: times;
+    color: rgb(0, 0, 7);}
+
+input {
+    padding: 5px 70px;
+}
